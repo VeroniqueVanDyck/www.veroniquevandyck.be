@@ -1,0 +1,267 @@
+.logoVVD
+{
+    background-image: url("images/logo.png");
+    width: 270px;
+    height: 150px;
+    display: block;  
+    margin-left: auto;
+    margin-right: auto;
+    text-indent: -9999px;
+}
+
+body
+{
+   font-family: Apple Chancery, Ariel, sans-serif;
+   background-image: url(images/woodbackground.jpg);
+}
+
+
+
+.clearfix
+{
+    clear: both;
+}
+
+
+h2
+{
+  font-family: Apple Chancery, Arial, sans-serif; 
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  color: #fefff7;
+
+}
+
+
+nav a:link,
+nav a:visited,
+nav a:hover,
+nav a:active
+{
+    display: block;
+    background-color: #242424;
+    color: white;
+    text-decoration: none; 
+    padding: 0.65em;
+    margin-bottom: 1px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+nav a:hover
+{
+    background-color: #6C1919;
+}
+
+
+header
+{
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top:2px;
+    padding-bottom: 5px;
+    background-color: #c6bc60;
+    border-radius: 5px;
+    
+}
+
+
+#aboutMe 
+{
+    padding: 5px;
+    background-color: #6C1919;
+    border-radius: 5px;
+    
+}
+
+
+.circular img
+{
+    width: 170px;
+    height: 170px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url(images/IMG_0953.JPG) no-repeat;
+    background-position: bottom left;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+#aboutMe p
+{
+    font-family: Apple Chancery, Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#myWork 
+{
+    background-color: #c6bc60;
+    padding: 5px;
+    margin-top: 8px;
+    border-radius: 5px;
+    
+}
+
+.projects
+{
+    text-align: center;
+    float: center;
+    
+}
+
+
+form
+{
+    font-family: Apple Chancery, Helvetiva, sans-serif;
+    color: #fefff7;
+    background-color: #6C1919;
+    padding: 10px;
+    padding-top: 5px;
+    margin-top: 8px;
+    border-radius: 5px;
+
+}
+
+#name
+{
+    border-radius: 5px;
+}
+
+#email
+{
+    border-radius: 5px;
+}
+
+#message
+{
+    border-radius: 5px;
+}
+
+#submitbutton
+{
+    background-color: #c6bc60;
+    border-radius: 150px;
+    font-family: Apple Chancery, Helvetica, sans-serif;
+    font-size: 1em;
+    padding-right: 3px;
+    border-color: #242424;
+
+}
+
+
+footer
+{
+    text-align: center;
+    margin: 30px;
+    
+}
+
+footer img
+{
+   width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background-color: white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    float: center;
+ 
+}
+
+
+/*======================MEDIAQUERI============================*/
+
+@media only screen and (min-width: 600px)
+{
+    section li
+    {
+        width: 50%;
+        display: block;
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 800px)
+{
+    .logo
+    {
+        float: left;
+        margin-left: 42px;
+        margin-top: 10px;
+        
+    }
+    
+.navigatie a:link,
+.navigatie a:visited,
+.navigatie a:hover,
+.navigatie a:active
+    {
+        float: right;
+        display: inline;
+        max-width: 6em;
+        padding: 10px;
+    }
+    
+    .navigatie
+    {
+        margin-right: 42px;
+        margin-top: 10px;
+    }
+    
+   section
+    {
+        margin-right: 42px;
+        margin-left: 42px;
+    }
+    
+    section li
+    {
+        width: 33.1%;
+        display: block;
+        float: left;
+        border-right: 1px solid grey;
+        border-top: 3px solid grey;
+        margin-top: 10px
+            
+    }
+    
+    section ul
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    section img
+    {
+        width: 80%
+    }
+    
+    .headerinside
+    {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 100px;
+    
+    }
+}
